@@ -36,7 +36,7 @@ func ListenAndServe() error {
 	}
 
 	addr := fmt.Sprintf("%s:%s", host, port)
-	slog.Info("go-template is listening,", "addr", addr)
+	slog.Info("go-template-web is listening,", "addr", addr)
 	return http.ListenAndServe(addr, mux)
 }
 

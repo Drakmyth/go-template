@@ -4,7 +4,7 @@ import (
 	"log"
 	"log/slog"
 
-	"github.com/Drakmyth/go-template/server"
+	"github.com/Drakmyth/go-template-web/server"
 	"github.com/joho/godotenv"
 )
 

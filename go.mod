@@ -1,5 +1,5 @@
-module github.com/Drakmyth/go-template
+module github.com/Drakmyth/go-template-web
 
-go 1.22.2
+go 1.22.5
 
 require github.com/joho/godotenv v1.5.1

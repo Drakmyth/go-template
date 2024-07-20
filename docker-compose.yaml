@@ -1,11 +1,11 @@
 services:
-    go-template:
-        image: go-template
+    go-template-web:
+        image: go-template-web
         build:
             context: .
             dockerfile: Dockerfile
             target: dev
-        container_name: go-template
+        container_name: go-template-web
         environment:
             - HOST=
         ports:
